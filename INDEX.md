@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-19 (10판)
+최종 갱신: 2026-09-19 (11판)
 
 ## 00 헌장
 
@@ -39,6 +39,7 @@
 | `30_facts/FACT-004-classic-audio-volume.md` | Moonlight Classic 롱폼의 음원 소요량 | 검증됨 |
 | `30_facts/FACT-005-classic-multilingual.md` | Moonlight Classic의 언어 구성 | 검증됨 |
 | `30_facts/FACT-006-song-selection-time.md` | 곡 선별에 드는 사람 시간 | 검증됨 |
+| `30_facts/FACT-007-econ-longform-length.md` | 경제의 촉 롱폼 길이 기준 | 자체 실측 |
 
 ## 40 실패 기록
 
