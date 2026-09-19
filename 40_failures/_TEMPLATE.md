@@ -9,7 +9,8 @@
 id:        FAIL-2026-0919-001
 lab:       LAB-A
 channel:   enka
-stage:     research | script | music | video | thumbnail | plan | upload
+           채널이 특정되지 않으면 none을 쓴다
+stage:     research | script | music | video | thumbnail | plan | upload | other
 symptom:   무엇이 관측되었나. 한 문장.
 trigger:   그 직전에 무엇을 했나. 재현 가능하도록 구체적으로.
 cause:     원인. 모르면 unknown이라고 쓴다. 추측을 단정으로 쓰지 않는다.
