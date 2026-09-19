@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-19 (7판)
+최종 갱신: 2026-09-19 (8판)
 
 ## 00 헌장
 
@@ -36,6 +36,9 @@
 | `30_facts/FACT-001-suno-download-cap.md` | Suno 다운로드 한도 | 검증됨 |
 | `30_facts/FACT-002-youtube-skills-scope.md` | youtube-skills의 기능 범위와 크레딧 | 검증됨 |
 | `30_facts/FACT-003-youtube-api-upload-quota.md` | YouTube API 업로드 할당 | 검증됨 |
+| `30_facts/FACT-004-classic-audio-volume.md` | Moonlight Classic 롱폼의 음원 소요량 | 검증됨 |
+| `30_facts/FACT-005-classic-multilingual.md` | Moonlight Classic의 언어 구성 | 검증됨 |
+| `30_facts/FACT-006-song-selection-time.md` | 곡 선별에 드는 사람 시간 | 검증됨 |
 
 ## 40 실패 기록
 
@@ -48,6 +51,8 @@
 | `40_failures/FAIL-2026-0919-004__LAB-C__none.md` | 드라이브 사본을 최신으로 오인함 |
 | `40_failures/FAIL-2026-0919-005__LAB-A__none.md` | LAB-A가 저장소 갱신을 조회하지 못함 |
 | `40_failures/FAIL-2026-0919-006__LAB-C__none.md` | LAB-C가 새 세션에서도 raw 주소를 열지 못함 |
+| `40_failures/FAIL-2026-0919-007__LAB-A__classic.md` | classic 채널 난이도를 잘못 산정함 |
+| `40_failures/FAIL-2026-0919-008__LAB-A__none.md` | 사실 기록 번호를 건너뛰어 제출함 |
 
 ## 50 성과
 
