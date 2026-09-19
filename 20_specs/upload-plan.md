@@ -25,7 +25,7 @@
     "short_2_sec": 0
   },
   "thumbnail_text": "",
-  "language": "ko",
+  "languages": ["ko"],
   "captions": [],
   "sources": [],
   "notes": ""
@@ -39,3 +39,4 @@
 - `tags`는 15개를 넘기지 않는다.
 - `lyrics.present`가 true면 `text`가 비어 있으면 안 된다.
 - `sources`에는 본문에 쓴 수치와 인용의 출처 URL을 넣는다. 경제 채널은 비울 수 없다.
+- `languages`는 배열이다. 제목과 설명을 여러 언어로 쓰는 채널은 전부 나열한다. 첫 번째가 주 언어다. classic은 ["en", "ko", "ja"]가 된다.
