@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-19 (8판)
+최종 갱신: 2026-09-19 (9판)
 
 ## 00 헌장
 
@@ -18,7 +18,7 @@
 | `10_channels/econ.md` | 경제의 촉 | 한국어 |
 | `10_channels/enka.md` | 演歌魂 EnkaKing | 일본어 |
 | `10_channels/trot.md` | 트로트 인생 멜로디 | 한국어 |
-| `10_channels/classic.md` | Moonlight Classic | 영어 |
+| `10_channels/classic.md` | Moonlight Classic | 영어, 한국어, 일본어 |
 | `10_channels/_banned.md` | 전 채널 공통 금지어와 금지 표현 |
 
 ## 20 규격
