@@ -7,6 +7,7 @@ econ, enka, trot, classic
 ## 실험실 코드
 
 LAB-A(Claude), LAB-B(ChatGPT), LAB-C(Gemini), LAB-D(Genspark)
+실험실 코드는 위 네 개로 고정한다. 다른 코드를 만들지 않는다.
 
 ## ID 형식
 
@@ -25,3 +26,7 @@ LAB-A(Claude), LAB-B(ChatGPT), LAB-C(Gemini), LAB-D(Genspark)
 ## 번호
 
 같은 날짜 안에서 001부터 순서대로. 번호를 재사용하지 않는다.
+
+실험실은 FACT와 FAIL의 번호를 붙이지 않는다.
+제출할 때는 주제만 적고, 번호는 커밋하면서 Philip이 부여한다.
+커밋되지 않은 초안의 번호는 사용된 것으로 보지 않는다.
