@@ -43,6 +43,8 @@
 |---|---|
 | `40_failures/_TEMPLATE.md` | 제출 양식 |
 | `40_failures/FAIL-2026-0919-001__LAB-A__none.md` | raw 주소 조회 시 이전 내용 반환 |
+| `40_failures/FAIL-2026-0919-002__LAB-C__none.md` | LAB-C가 커밋 API를 열지 못함 |
+| `40_failures/FAIL-2026-0919-003__LAB-C__none.md` | LAB-C가 읽지 못한 값과 원인을 단정함 |
 
 ## 50 성과
 
@@ -58,3 +60,4 @@
 |---|---|
 | `60_decisions/ADR-0001-builder-and-repo.md` | 구축 담당과 저장소 형태 |
 | `60_decisions/ADR-0002-music-source-policy.md` | 음원 조달 정책, 채널별 배분 |
+| `60_decisions/ADR-0003-change-detection.md` | 도서관 변경 감지 방식 |
