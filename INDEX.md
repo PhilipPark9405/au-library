@@ -53,6 +53,7 @@
 | `40_failures/FAIL-2026-0919-006__LAB-C__none.md` | LAB-C가 새 세션에서도 raw 주소를 열지 못함 |
 | `40_failures/FAIL-2026-0919-007__LAB-A__classic.md` | classic 채널 난이도를 잘못 산정함 |
 | `40_failures/FAIL-2026-0919-008__LAB-A__none.md` | 사실 기록 번호를 건너뛰어 제출함 |
+| `40_failures/FAIL-2026-0919-009__LAB-A__classic.md` | INDEX와 채널 문서의 값이 어긋남 |
 
 ## 50 성과
 
