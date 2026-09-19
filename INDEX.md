@@ -47,6 +47,7 @@
 | `40_failures/FAIL-2026-0919-003__LAB-C__none.md` | LAB-C가 읽지 못한 값과 원인을 단정함 |
 | `40_failures/FAIL-2026-0919-004__LAB-C__none.md` | 드라이브 사본을 최신으로 오인함 |
 | `40_failures/FAIL-2026-0919-005__LAB-A__none.md` | LAB-A가 저장소 갱신을 조회하지 못함 |
+| `40_failures/FAIL-2026-0919-006__LAB-C__none.md` | LAB-C가 새 세션에서도 raw 주소를 열지 못함 |
 
 ## 50 성과
 
