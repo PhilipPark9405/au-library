@@ -64,3 +64,4 @@
 | `60_decisions/ADR-0001-builder-and-repo.md` | 구축 담당과 저장소 형태 |
 | `60_decisions/ADR-0002-music-source-policy.md` | 음원 조달 정책, 채널별 배분 |
 | `60_decisions/ADR-0003-change-detection.md` | 도서관 변경 감지 방식 |
+| `60_decisions/ADR-0004-lab-autonomy.md` | 실험실의 자율 범위 |
