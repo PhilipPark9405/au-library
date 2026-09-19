@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-19
+최종 갱신: 2026-09-20
 
 ## 00 헌장
 
@@ -35,6 +35,7 @@
 |---|---|---|
 | `30_facts/FACT-001-suno-download-cap.md` | Suno 다운로드 한도 | 검증됨 |
 | `30_facts/FACT-002-youtube-skills-scope.md` | youtube-skills의 기능 범위와 크레딧 | 검증됨 |
+| `30_facts/FACT-003-youtube-api-upload-quota.md` | YouTube API 업로드 할당 | 검증됨 |
 
 ## 40 실패 기록
 
