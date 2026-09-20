@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-19 (11판)
+최종 갱신: 2026-09-20 (1판)
 
 ## 00 헌장
 
@@ -40,6 +40,9 @@
 | `30_facts/FACT-005-classic-multilingual.md` | Moonlight Classic의 언어 구성 | 검증됨 |
 | `30_facts/FACT-006-song-selection-time.md` | 곡 선별에 드는 사람 시간 | 검증됨 |
 | `30_facts/FACT-007-econ-longform-length.md` | 경제의 촉 롱폼 길이 기준 | 자체 실측 |
+| `30_facts/FACT-008-competitor-apps.md` | 경쟁 앱 두 종의 제품 구조 | 검증됨 |
+| `30_facts/FACT-009-channel-personas.md` | enka와 trot 채널의 가수 설정 | 검증됨 |
+| `30_facts/FACT-010-library-access-by-lab.md` | 실험실별 도서관 조회 결과 | 검증됨 |
 
 ## 40 실패 기록
 
@@ -56,6 +59,10 @@
 | `40_failures/FAIL-2026-0919-008__LAB-A__none.md` | 사실 기록 번호를 건너뛰어 제출함 |
 | `40_failures/FAIL-2026-0919-009__LAB-A__classic.md` | INDEX와 채널 문서의 값이 어긋남 |
 | `40_failures/FAIL-2026-0919-010__LAB-C__econ.md` | 브라우징 불가로 sources를 채우지 못함 |
+| `40_failures/FAIL-2026-0920-001__LAB-A__enka.md` | 채널 문서의 인물 설정이 실제와 달랐음 |
+| `40_failures/FAIL-2026-0920-002__LAB-A__none.md` | 조회 문제 원인을 주소 형태로 단정함 |
+| `40_failures/FAIL-2026-0920-003__LAB-C__none.md` | 상위 모델에서도 조회 실패, 원인 단정 |
+| `40_failures/FAIL-2026-0920-004__LAB-A__none.md` | 날짜가 바뀐 것을 확인하지 않고 전날 날짜를 사용함 |
 
 ## 50 성과
 
