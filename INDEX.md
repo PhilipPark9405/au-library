@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-21 (2판)
+최종 갱신: 2026-09-21 (3판)
 
 ## 00 헌장
 
@@ -52,7 +52,7 @@
 | `30_facts/FACT-017-quality-baseline.md` | 제작 품질 기준선 | ffprobe 실측 |
 | `30_facts/FACT-018-shorts-bitrate-gap.md` | 숏폼 비트레이트 격차 | 실측과 검수 기록 대조 |
 | `30_facts/FACT-019-output-assets.md` | 산출물 폴더의 보유 자산 | 파일 목록으로 확인. 일부 미확인 |
-| `30_facts/FACT-020-workspace-inventory.md` | C:\Dev 의 유튜브 제작 워크스페이스 | 파일 목록으로 확인. 내용 미확인 |
+| `30_facts/FACT-020-workspace-inventory.md` | C:\Dev 의 과거 유튜브 제작 폴더. 참고 자료 | 파일 목록으로 확인. 09-21 정정 |
 | `30_facts/FACT-021-local-library-copy.md` | 로컬 도서관 사본 | 확인됨. 09-21 처리 완료 |
 | `30_facts/FACT-022-repo-push-condition.md` | 도서관 저장소 푸시 조건 | 푸시 실패와 성공으로 확인 |
 | `30_facts/FACT-023-classic-longform-render-spec.md` | classic v1.6.1 롱폼 렌더 사양 | 원문 코드로 확인 |
