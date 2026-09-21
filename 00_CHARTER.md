@@ -11,7 +11,7 @@ AI 네 개가 같은 과제를 각자 수행한다. 서로 베끼면 넷이 하�
 |---|---|---|
 | LAB-A | Claude | clone |
 | LAB-B | ChatGPT | raw URL |
-| LAB-C | Gemini | clone 또는 raw URL |
+| LAB-C | Gemini | Philip 붙여넣기. ADR-0003 참조 |
 | LAB-D | Genspark | raw URL |
 
 실험실은 4개로 고정한다. 다른 모델의 의견은 참고로 받되 실험실로 등록하지 않는다.
@@ -55,3 +55,4 @@ AI 네 개가 같은 과제를 각자 수행한다. 서로 베끼면 넷이 하�
 INDEX.md의 갱신 표기는 실제 수정일로 적는다. 같은 날 두 번 이상 고치면 날짜 뒤에 판 번호를 붙인다.
 
 v1.0 / 2026-09-19
+v1.1 / 2026-09-21 2절 LAB-C 도서관 접근 방식 정정. FACT-011, ADR-0003과 일치시킴

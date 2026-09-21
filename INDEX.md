@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-21 (4판)
+최종 갱신: 2026-09-21 (5판)
 
 ## 00 헌장
 
@@ -36,13 +36,13 @@
 | `30_facts/FACT-001-suno-download-cap.md` | Suno 다운로드 한도 | 검증됨. 계정 실측값 미확인 |
 | `30_facts/FACT-002-youtube-skills-scope.md` | youtube-skills의 기능 범위와 크레딧 | 검증됨 |
 | `30_facts/FACT-003-youtube-api-upload-quota.md` | YouTube API 업로드 할당 | 검증됨. 계정 실측값 미확인 |
-| `30_facts/FACT-004-classic-audio-volume.md` | Moonlight Classic 롱폼의 음원 소요량 | 2026-09-21 정정. 제작 코드로 확인 |
+| `30_facts/FACT-004-classic-audio-volume.md` | Moonlight Classic 롱폼의 음원 소요량 | 09-21 재정정. 세트 14곡, 실제 다운로드 18곡 |
 | `30_facts/FACT-005-classic-multilingual.md` | Moonlight Classic의 언어 구성 | 검증됨 |
 | `30_facts/FACT-006-song-selection-time.md` | 곡 선별에 드는 사람 시간 | 확인됨. 실측 미완료 |
 | `30_facts/FACT-007-econ-longform-length.md` | 경제의 촉 롱폼 길이 기준 | 2026-09-21 정정. 근거 미보강 |
 | `30_facts/FACT-008-competitor-apps.md` | 경쟁 앱 두 종의 제품 구조 | 화면과 판매사 답변 기준. 실사용 미검증 |
 | `30_facts/FACT-009-channel-personas.md` | enka와 trot 채널의 가수 설정 | Philip 확정 |
-| `30_facts/FACT-010-library-url-form.md` | 도서관 조회 주소의 형태별 차이 | 3회 조회로 확인 |
+| `30_facts/FACT-010-library-url-form.md` | 도서관 조회 주소의 형태별 차이 | 09-21 정정. 주소로 정본 지정 안 함 |
 | `30_facts/FACT-011-lab-c-url-access.md` | LAB-C의 URL 조회 불가 | 4회 시도로 확인 |
 | `30_facts/FACT-012-lab-c-notebook-source.md` | LAB-C의 노트북 소스 경로 | 확인됨 |
 | `30_facts/FACT-013-hardware-encoding.md` | Philip PC의 하드웨어 인코딩 지원 범위 | 명령 출력으로 확인 |
@@ -102,6 +102,7 @@
 |---|---|
 | `60_decisions/ADR-0001-builder-and-repo.md` | 구축 담당과 저장소 형태 |
 | `60_decisions/ADR-0002-music-source-policy.md` | 음원 조달 정책, 채널별 배분 |
-| `60_decisions/ADR-0003-change-detection.md` | 도서관 변경 감지 방식 |
+| `60_decisions/ADR-0003-change-detection.md` | 도서관 변경 감지 방식. 최신 커밋 기준 |
 | `60_decisions/ADR-0004-lab-autonomy.md` | 실험실의 자율 범위 |
 | `60_decisions/ADR-0005-lab-workspaces.md` | 실험실별 워크스페이스 지정과 상호 접근 금지 |
+| `60_decisions/ADR-0006-operating-rules.md` | 운영 규칙. 호칭, 표시명, 승인, 실험실 간 소통, 설계서, 공유 자원 |
