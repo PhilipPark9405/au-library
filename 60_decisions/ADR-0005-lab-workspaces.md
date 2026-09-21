@@ -18,6 +18,9 @@
 | LAB-C | C:\Dev\유튜브 제작\LAB-C-Youtube-Gemini-Workspace |
 | LAB-D | C:\Dev\유튜브 제작\LAB-D-Youtube-DeepSeek-Workspace |
 
+LAB-D 는 Genspark 플랫폼에서 DeepSeek 모델을 쓴다. 헌장 2절과 naming.md 의 Genspark 는
+플랫폼 표기이고, 워크스페이스 이름의 DeepSeek 는 모델 표기다. 같은 실험실이다.
+
 ## 금지
 
 - 다른 실험실의 워크스페이스를 리뷰하지 않는다.
