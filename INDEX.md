@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-21 (1판)
+최종 갱신: 2026-09-21 (2판)
 
 ## 00 헌장
 
@@ -45,6 +45,21 @@
 | `30_facts/FACT-010-library-url-form.md` | 도서관 조회 주소의 형태별 차이 | 3회 조회로 확인 |
 | `30_facts/FACT-011-lab-c-url-access.md` | LAB-C의 URL 조회 불가 | 4회 시도로 확인 |
 | `30_facts/FACT-012-lab-c-notebook-source.md` | LAB-C의 노트북 소스 경로 | 확인됨 |
+| `30_facts/FACT-013-hardware-encoding.md` | Philip PC의 하드웨어 인코딩 지원 범위 | 명령 출력으로 확인 |
+| `30_facts/FACT-014-toolchain-versions.md` | 제작 환경 도구 버전 | 명령 출력으로 확인. 09-15 시점 |
+| `30_facts/FACT-015-classic-render-time.md` | classic 3시간 롱폼 렌더 실측 소요 시간 | 파일 타임스탬프로 산출 |
+| `30_facts/FACT-016-remotion-license.md` | Remotion 라이선스 조건 | 당시 확인 기록. 재확인 미실시 |
+| `30_facts/FACT-017-quality-baseline.md` | 제작 품질 기준선 | ffprobe 실측 |
+| `30_facts/FACT-018-shorts-bitrate-gap.md` | 숏폼 비트레이트 격차 | 실측과 검수 기록 대조 |
+| `30_facts/FACT-019-output-assets.md` | 산출물 폴더의 보유 자산 | 파일 목록으로 확인. 일부 미확인 |
+| `30_facts/FACT-020-workspace-inventory.md` | C:\Dev 의 유튜브 제작 워크스페이스 | 파일 목록으로 확인. 내용 미확인 |
+| `30_facts/FACT-021-local-library-copy.md` | 로컬 도서관 사본 | 확인됨. 09-21 처리 완료 |
+| `30_facts/FACT-022-repo-push-condition.md` | 도서관 저장소 푸시 조건 | 푸시 실패와 성공으로 확인 |
+| `30_facts/FACT-023-classic-longform-render-spec.md` | classic v1.6.1 롱폼 렌더 사양 | 원문 코드로 확인 |
+| `30_facts/FACT-024-classic-shorts-render-spec.md` | classic v1.6.1 숏폼 렌더 사양 | 원문 코드로 확인 |
+| `30_facts/FACT-025-classic-master-composition.md` | classic 오디오 마스터 구성 방식 | 원문 코드와 설정으로 확인 |
+| `30_facts/FACT-026-review-implementation-gap.md` | 09-16 classic 검수 지적의 반영 현황 | 검수 기록과 코드 대조 |
+| `30_facts/FACT-027-econ-voice-config.md` | econ 채널 음성 설정 | 생성 기록으로 확인. 실물 미확인 |
 
 ## 40 실패 기록
 
@@ -65,6 +80,12 @@
 | `40_failures/FAIL-2026-0920-002__LAB-A__none.md` | 조회 문제 원인을 주소 형태로 단정함 |
 | `40_failures/FAIL-2026-0920-003__LAB-C__none.md` | 상위 모델에서도 조회 실패, 원인 단정 |
 | `40_failures/FAIL-2026-0920-004__LAB-A__none.md` | 날짜가 바뀐 것을 확인하지 않고 전날 날짜를 사용함 |
+| `40_failures/FAIL-2026-0921-001__LAB-A__none.md` | 정본과 교차 확인 주소가 함께 낡은 값을 반환함 |
+| `40_failures/FAIL-2026-0921-002__LAB-A__none.md` | NVENC 부재를 하드웨어 인코딩 전체 부재로 오인함 |
+| `40_failures/FAIL-2026-0921-003__LAB-A__classic.md` | 콜라주 산술 건에서 판정을 세 차례 바꿈 |
+| `40_failures/FAIL-2026-0921-004__LAB-A__classic.md` | 음원 소요량을 실제의 약 4배로 산정함 |
+| `40_failures/FAIL-2026-0921-005__LAB-A__none.md` | 프로젝트 첨부 파일을 확인하지 않고 회수를 권고함 |
+| `40_failures/FAIL-2026-0921-006__LAB-A__none.md` | 산출물 전달 시 배치 위치를 명시하지 않음 |
 
 ## 50 성과
 

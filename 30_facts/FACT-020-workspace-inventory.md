@@ -1,0 +1,39 @@
+# FACT-020 C:\Dev 의 유튜브 제작 워크스페이스
+
+| 항목 | 값 |
+|---|---|
+| 상태 | 화면과 파일 목록으로 확인. 내용 미확인 |
+| 확인일 | 2026-09-21 |
+| 제출 | LAB-A |
+| 영향 | 전 채널 |
+
+## 사실
+
+2026-09-21 기준 네 개가 확인된다.
+
+| 폴더 | 마지막 흔적 | 기반 | 성격 |
+|---|---|---|---|
+| YouTubeProductionOS | 09-16 17:19 | Python, Remotion | econ 중심. git init 기록 있음 |
+| MoonlightClassic-Autopilot | 09-17 21:12 | Python | classic 전용 |
+| youtube-production-os | 09-18 19:28 | Node, Docker | 빈 파일 다수 |
+| youtube-agent-os | 09-18 21:38 | Node | .claude 폴더와 CLAUDE.md 7KB 포함 |
+
+나흘 동안 워크스페이스 네 벌이 생성되었다.
+
+이와 별도로 다음이 있다.
+
+- C:\Dev\temp 에 패키지와 배치 폴더 다수
+- C:\Dev\유튜브 제작\산출물 에 채널별 산출물
+- C:\Dev\유튜브 제작\공동 라이브러리 에 도서관 사본. FACT-021 참조
+
+youtube-production-os 의 docker-compose.yml 과 README.md 는 0바이트다.
+
+## 확인이 필요한 부분
+
+- 각 폴더의 내용. 파일 목록만 확인했고 코드는 읽지 않았다.
+- youtube-agent-os 의 CLAUDE.md 7KB 내용.
+- 네 폴더 중 어느 것이 정본인지. 확정되지 않았다.
+
+## 출처
+
+- 폴더 화면 캡처와 파일 목록 조회, 2026-09-21
