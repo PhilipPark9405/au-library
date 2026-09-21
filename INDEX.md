@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-21 (5판)
+최종 갱신: 2026-09-21 (6판)
 
 ## 00 헌장
 
@@ -87,6 +87,7 @@
 | `40_failures/FAIL-2026-0921-005__LAB-A__none.md` | 프로젝트 첨부 파일을 확인하지 않고 회수를 권고함 |
 | `40_failures/FAIL-2026-0921-006__LAB-A__none.md` | 산출물 전달 시 배치 위치를 명시하지 않음 |
 | `40_failures/FAIL-2026-0921-007__LAB-A__none.md` | 과거 폴더에 정본 지정 전제를 사실 기록에 넣음 |
+| `40_failures/FAIL-2026-0921-008__LAB-A__none.md` | 텔레그램 봇 간 통신 규칙을 확인 없이 단정함 |
 
 ## 50 성과
 
@@ -105,4 +106,5 @@
 | `60_decisions/ADR-0003-change-detection.md` | 도서관 변경 감지 방식. 최신 커밋 기준 |
 | `60_decisions/ADR-0004-lab-autonomy.md` | 실험실의 자율 범위 |
 | `60_decisions/ADR-0005-lab-workspaces.md` | 실험실별 워크스페이스 지정과 상호 접근 금지 |
-| `60_decisions/ADR-0006-operating-rules.md` | 운영 규칙. 호칭, 표시명, 승인, 실험실 간 소통, 설계서, 공유 자원 |
+| `60_decisions/ADR-0006-operating-rules.md` | 운영 규칙. 호칭, 표시명, 승인, 실험실 간 소통, 설계서, 공유 자원, 토큰 |
+| `60_decisions/ADR-0007-neutral-control-plane.md` | 중립 Control Plane. Railway, 1단계 기능, 텔레그램 구성 |
