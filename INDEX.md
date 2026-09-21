@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-21 (6판)
+최종 갱신: 2026-09-21 (7판)
 
 ## 00 헌장
 
@@ -60,6 +60,7 @@
 | `30_facts/FACT-025-classic-master-composition.md` | classic 오디오 마스터 구성 방식 | 원문 코드와 설정으로 확인 |
 | `30_facts/FACT-026-review-implementation-gap.md` | 09-16 classic 검수 지적의 반영 현황 | 검수 기록과 코드 대조 |
 | `30_facts/FACT-027-econ-voice-config.md` | econ 채널 음성 설정 | 생성 기록으로 확인. 실물 미확인 |
+| `30_facts/FACT-028-ypp-status.md` | 채널별 파트너 프로그램 가입 상태와 기준 변경 | 스튜디오 화면과 공식 안내로 확인 |
 
 ## 40 실패 기록
 
@@ -108,3 +109,4 @@
 | `60_decisions/ADR-0005-lab-workspaces.md` | 실험실별 워크스페이스 지정과 상호 접근 금지 |
 | `60_decisions/ADR-0006-operating-rules.md` | 운영 규칙. 호칭, 표시명, 승인, 실험실 간 소통, 설계서, 공유 자원, 토큰 |
 | `60_decisions/ADR-0007-neutral-control-plane.md` | 중립 Control Plane. Railway, 1단계 기능, 텔레그램 구성 |
+| `60_decisions/ADR-0008-lab-c-exit.md` | LAB-C 퇴출. 실험실 3개 |

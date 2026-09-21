@@ -6,8 +6,10 @@ econ, enka, trot, classic
 
 ## 실험실 코드
 
-LAB-A(Claude), LAB-B(ChatGPT), LAB-C(Gemini), LAB-D(Genspark)
-실험실 코드는 위 네 개로 고정한다. 다른 코드를 만들지 않는다.
+LAB-A(Claude), LAB-B(ChatGPT), LAB-D(Genspark)
+실험실 코드는 위 세 개로 고정한다. 다른 코드를 만들지 않는다.
+LAB-C(Gemini)는 2026-09-21 퇴출되었다. ADR-0008 참조. LAB-C 코드는 다시 쓰지 않는다.
+퇴출 전 기록의 LAB-C 표기와 파일명은 그대로 둔다.
 
 ## ID 형식
 
