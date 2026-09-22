@@ -40,8 +40,8 @@
 
 ## 필드 설명
 
-- `download_consumed` — 이 패키지가 소비한 Suno 다운로드 횟수. FACT-001 때문에 반드시 센다.
-- `human_approved` — 사람이 승인하기 전에는 false. 이 값이 false면 업로드하지 않는다.
-- `synthetic_disclosure` — AI 생성 음성이나 인물이 들어간 경우 업로드 설정에서 표기했는지.
+- `download_consumed`: 이 패키지가 소비한 Suno 다운로드 횟수. FACT-001 때문에 반드시 센다.
+- `human_approved`: 사람이 승인하기 전에는 false. 이 값이 false면 업로드하지 않는다.
+- `synthetic_disclosure`: AI 생성 음성이나 인물이 들어간 경우 업로드 설정에서 표기했는지.
 - 검사 대상이 아직 존재하지 않으면 `unknown`을 쓴다. 검사하지 않은 것을 `pass`로 적지 않는다.
 - `synthetic_disclosure`는 유튜브 업로드 설정에서 표기를 켰는지를 뜻한다. 설명문에 문구를 넣은 것과는 다른 항목이다.
