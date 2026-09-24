@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-22 (2판)
+최종 갱신: 2026-09-24 (1판)
 
 ## 00 헌장
 
@@ -28,6 +28,7 @@
 | `20_specs/package-contract.md` | 영상 패키지 1건의 완료 조건 |
 | `20_specs/upload-plan.md` | 업로드 계획서 스키마 |
 | `20_specs/naming.md` | 파일명과 ID 규칙 |
+| `20_specs/response-rules.md` | 답변 15원칙. 06 범위와 09 적용, 충돌 시 순서 |
 
 ## 30 검증된 사실
 
@@ -63,6 +64,8 @@
 | `30_facts/FACT-028-ypp-status.md` | 채널별 파트너 프로그램 가입 상태와 기준 변경 | 스튜디오 화면과 공식 안내로 확인 |
 | `30_facts/FACT-029-powershell-relative-path.md` | PowerShell 5.1의 상대 경로 해석 | 명령 출력으로 확인 |
 | `30_facts/FACT-030-shared-assets-and-uploads.md` | 공유 산출물 폴더와 업로드 완료 건 | Philip 확인. 파일 목록 미확인 |
+| `30_facts/FACT-031-classic-download-inventory.md` | classic 보유 음원 18개의 길이와 비트레이트 | ffprobe 실측 |
+| `30_facts/FACT-032-render-time-by-source.md` | 소스 이미지 해상도에 따른 렌더 시간 | 실측 |
 
 ## 40 실패 기록
 
@@ -96,6 +99,8 @@
 | `40_failures/FAIL-2026-0922-003__LAB-D__none.md` | 파일명 규칙을 위반한 이름을 생성하고 안내함 |
 | `40_failures/FAIL-2026-0922-004__LAB-D__none.md` | 승인 항목에 선택지와 기본값이 없어 결정할 수 없는 형태로 송신함 |
 | `40_failures/FAIL-2026-0922-005__LAB-A__enka.md` | 사실 기록에 우리 채널 원본 수치를 적음 |
+| `40_failures/FAIL-2026-0923-001__LAB-D__classic.md` | 소재를 도구로 만들다 실패. 게이트 오판, 소스 과해상도, 주소 미검증 |
+| `40_failures/FAIL-2026-0923-002__LAB-A__classic.md` | 수치 게이트를 다 통과한 패키지가 육안 검수에서 폐기됨 |
 
 ## 50 성과
 
@@ -116,4 +121,5 @@
 | `60_decisions/ADR-0005-lab-workspaces.md` | 실험실별 워크스페이스 지정과 상호 접근 금지 |
 | `60_decisions/ADR-0006-operating-rules.md` | 운영 규칙. 호칭, 표시명, 승인, 소통, 설계서, 공유 자원, 토큰, 선행 검토, 곡 제목과 공유, 앱 병행 |
 | `60_decisions/ADR-0007-neutral-control-plane.md` | 중립 Control Plane. Railway, 1단계 기능, 텔레그램 구성 |
-| `60_decisions/ADR-0008-lab-c-exit.md` | LAB-C 퇴출. 실험실 3개 |
+| `60_decisions/ADR-0008-lab-c-exit.md` | LAB-C 퇴출 |
+| `60_decisions/ADR-0009-lab-d-stop.md` | LAB-D 중단. 실험실 2개. 소재와 검수 규칙 |
