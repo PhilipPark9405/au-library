@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-24 (1판)
+최종 갱신: 2026-09-24 (2판)
 
 ## 00 헌장
 
@@ -123,3 +123,4 @@
 | `60_decisions/ADR-0007-neutral-control-plane.md` | 중립 Control Plane. Railway, 1단계 기능, 텔레그램 구성 |
 | `60_decisions/ADR-0008-lab-c-exit.md` | LAB-C 퇴출 |
 | `60_decisions/ADR-0009-lab-d-stop.md` | LAB-D 중단. 실험실 2개. 소재와 검수 규칙 |
+| `60_decisions/ADR-0010-product-goal.md` | 제품 목표. 요구 한두 줄로 조사, 프롬프트, 생성, 패키지까지 자동 |
