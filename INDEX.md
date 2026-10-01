@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-09-24 (2판)
+최종 갱신: 2026-10-01 (1판)
 
 ## 00 헌장
 
@@ -26,7 +26,7 @@
 | 파일 | 내용 |
 |---|---|
 | `20_specs/package-contract.md` | 영상 패키지 1건의 완료 조건 |
-| `20_specs/upload-plan.md` | 업로드 계획서 스키마 |
+| `20_specs/upload-plan.md` | 업로드 계획서 스키마와 사람이 보는 txt 계획서 규격 |
 | `20_specs/naming.md` | 파일명과 ID 규칙 |
 | `20_specs/response-rules.md` | 답변 15원칙. 06 범위와 09 적용, 충돌 시 순서 |
 
@@ -66,6 +66,14 @@
 | `30_facts/FACT-030-shared-assets-and-uploads.md` | 공유 산출물 폴더와 업로드 완료 건 | Philip 확인. 파일 목록 미확인 |
 | `30_facts/FACT-031-classic-download-inventory.md` | classic 보유 음원 18개의 길이와 비트레이트 | ffprobe 실측 |
 | `30_facts/FACT-032-render-time-by-source.md` | 소스 이미지 해상도에 따른 렌더 시간 | 실측 |
+| `30_facts/FACT-033-pexels-api-and-yield.md` | Pexels API 한도와 소재 수집 실적, 제외율 | 실측 |
+| `30_facts/FACT-034-artifact-screening.md` | 영상 소재 인공물 2단계 검사 방법 | 실측 |
+| `30_facts/FACT-035-ffmpeg-xfade-dissolve.md` | xfade dissolve 전환의 화면 잡음. fade 로 대체 | 실측 |
+| `30_facts/FACT-036-longform-render-62min.md` | 62분 롱폼 렌더 실측 | 실측 |
+| `30_facts/FACT-037-sleep-channel-benchmark.md` | 수면 음악 상위 채널 화면과 길이 전략 | 제3자 분석과 화면 확인 |
+| `30_facts/FACT-038-thumbnail-and-shorts-spec.md` | 썸네일 글자 크기와 숏폼 규격 | 분석과 자체 검증 |
+| `30_facts/FACT-039-youtube-upload-settings.md` | 설명란 챕터 자동 생성, 리믹스 설정 차이 | 업로드 화면 확인 |
+| `30_facts/FACT-040-content-id-self-claim.md` | 유통사 Content ID 가 본인 영상에 거는 소유권 주장 | 화면과 공식 문서 |
 
 ## 40 실패 기록
 
@@ -101,6 +109,10 @@
 | `40_failures/FAIL-2026-0922-005__LAB-A__enka.md` | 사실 기록에 우리 채널 원본 수치를 적음 |
 | `40_failures/FAIL-2026-0923-001__LAB-D__classic.md` | 소재를 도구로 만들다 실패. 게이트 오판, 소스 과해상도, 주소 미검증 |
 | `40_failures/FAIL-2026-0923-002__LAB-A__classic.md` | 수치 게이트를 다 통과한 패키지가 육안 검수에서 폐기됨 |
+| `40_failures/FAIL-2026-0928-001__LAB-A__classic.md` | 설정 조회가 조용히 실패해 자막이 30분간 사라짐 |
+| `40_failures/FAIL-2026-0928-002__LAB-A__none.md` | 지시에 경로가 없어 상위 폴더를 검색함 |
+| `40_failures/FAIL-2026-0929-001__LAB-A__classic.md` | 계획서를 마크다운으로 만들어 순번이 복사되지 않음 |
+| `40_failures/FAIL-2026-0929-002__LAB-A__classic.md` | 권리 표기를 분량을 이유로 줄임 |
 
 ## 50 성과
 
