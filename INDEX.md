@@ -1,9 +1,9 @@
-# INDEX
+﻿# INDEX
 
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-10-01 (1판)
+최종 갱신: 2026-10-02 (1판)
 
 ## 00 헌장
 
@@ -74,6 +74,7 @@
 | `30_facts/FACT-038-thumbnail-and-shorts-spec.md` | 썸네일 글자 크기와 숏폼 규격 | 분석과 자체 검증 |
 | `30_facts/FACT-039-youtube-upload-settings.md` | 설명란 챕터 자동 생성, 리믹스 설정 차이 | 업로드 화면 확인 |
 | `30_facts/FACT-040-content-id-self-claim.md` | 유통사 Content ID 가 본인 영상에 거는 소유권 주장 | 화면과 공식 문서 |
+| `30_facts/FACT-041-omniroute-routing.md` | OmniRoute 콤보가 적용되는 경로와 적용되지 않는 경로 | 문서와 화면 확인 |
 
 ## 40 실패 기록
 
@@ -136,3 +137,4 @@
 | `60_decisions/ADR-0008-lab-c-exit.md` | LAB-C 퇴출 |
 | `60_decisions/ADR-0009-lab-d-stop.md` | LAB-D 중단. 실험실 2개. 소재와 검수 규칙 |
 | `60_decisions/ADR-0010-product-goal.md` | 제품 목표. 요구 한두 줄로 조사, 프롬프트, 생성, 패키지까지 자동 |
+| `60_decisions/ADR-0011-execution-routing.md` | 실행 경로와 모델 배정. 판정과 설계는 기본 모델, 반복 실행은 대체 모델 |
