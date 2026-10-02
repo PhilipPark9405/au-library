@@ -12,20 +12,23 @@
 - OmniRoute 는 로컬에서 도는 중계 서버다. 기본 포트는 20128 이다.
   실행 담당의 요청을 다른 모델 제공자로 넘긴다.
 - 콤보는 먼저 쓸 모델과 실패했을 때 넘길 모델을 순서대로 묶은 설정이다.
-- Claude Desktop 안의 Code 탭에는 콤보가 적용되지 않는다.
-  Desktop 은 Anthropic API 를 직접 쓰고, 개인용 환경에서 제3자 모델 제공자를 쓰는 것을 지원하지 않는다.
-  OmniRoute 쪽 문서도 Claude Code Desktop 과 launcher 를 별도 환경으로 설명한다.
-- 콤보를 타려면 OmniRoute 가 띄우는 별도 실행 화면을 써야 한다.
+- OmniRoute 쪽 문서는 Claude Code Desktop 과 launcher 를 별도 환경으로 설명한다.
+- 시작 화면의 Combo 식별자는 Production 세션의 시작 경로만 알려준다. 실제 배차 결과는 별도로 확인해야 한다.
 - MCP 로 OmniRoute 를 연결하는 것은 모델을 바꾸는 것이 아니다. 도구를 쓰게 하는 것이다.
 
-## 어느 경로인지 구분하는 법
+## 세션 식별과 배차 판정은 다른 문제다
 
-실행 화면 아래 표시를 본다.
+| 확인 대상 | 수단 | 알 수 있는 것 |
+|---|---|---|
+| 세션이 Production으로 시작됐는지 | 시작 화면의 Combo 식별자 | 시작 경로만 |
+| 실제 요청을 누가 처리했는지 | OmniRoute Logs | Combo, Provider, Model, fallback 여부 |
 
-| 표시 | 뜻 |
-|---|---|
-| 모델 이름만 보임 | 콤보를 타지 않는다. Anthropic 직접 |
-| 콤보 이름과 과금 표시 | 콤보를 탄다 |
+- 시작 화면의 Combo 식별자는 1차 정보다. 실제 처리 Provider와 Model의 증거가 아니다.
+- Claude Desktop의 일반 대화창과 Desktop Code 화면은 claude-production으로 시작했다는 근거가 없는 한 Production 세션으로 보지 않는다.
+- `/model`은 Claude Code가 무엇을 요청할지 보여주거나 변경하는 설정이다. OmniRoute 배차 결과를 알려주지 않는다.
+- Production 세션에서 사용자가 명시적으로 지시하지 않는 한 `/model`로 모델을 변경하지 않는다.
+- 실제 Combo, Provider, Model, fallback은 OmniRoute Logs를 확인한 경우에만 사실로 기록한다.
+- 로그를 확인하지 않았으면 "실제 Provider와 Model은 로그 미확인"이라고 적고 추측하지 않는다.
 
 ## 확인이 필요한 부분
 
