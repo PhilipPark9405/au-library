@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-10-03 (1판)
+최종 갱신: 2026-10-04 (1판)
 
 ## 00 헌장
 
@@ -75,6 +75,12 @@
 | `30_facts/FACT-039-youtube-upload-settings.md` | 설명란 챕터 자동 생성, 리믹스 설정 차이 | 업로드 화면 확인 |
 | `30_facts/FACT-040-content-id-self-claim.md` | 유통사 Content ID 가 본인 영상에 거는 소유권 주장 | 화면과 공식 문서 |
 | `30_facts/FACT-041-omniroute-routing.md` | OmniRoute 콤보가 적용되는 경로와 적용되지 않는 경로 | 문서와 화면 확인 |
+| `30_facts/FACT-042-omniroute-data-dir.md` | 데이터 폴더가 다르면 제공자와 콤보가 통째로 달라진다 | 실측 |
+| `30_facts/FACT-043-provider-usefulness-from-logs.md` | 콤보 등록과 실제 쓸모는 다르다. 로그로 판단한다 | 실측 |
+| `30_facts/FACT-044-native-codex-midturn-fallback.md` | 출력이 시작된 turn 안에서는 제공자를 바꾸지 못한다 | 실측 |
+| `30_facts/FACT-045-metric-must-match-target.md` | 지표가 무엇을 재는지 확인하지 않으면 게이트가 헛돈다 | 실측 |
+| `30_facts/FACT-046-8h-vs-3h-design.md` | 8시간과 3시간은 화면 설계가 다르다. 블랙 스크린 장르 | 제3자 분석 |
+| `30_facts/FACT-047-longform-8h-render.md` | 8시간 롱폼 마스터와 렌더 실측, 단계 조립, 길이 어긋남 | 실측 |
 
 ## 40 실패 기록
 
@@ -114,6 +120,7 @@
 | `40_failures/FAIL-2026-0928-002__LAB-A__none.md` | 지시에 경로가 없어 상위 폴더를 검색함 |
 | `40_failures/FAIL-2026-0929-001__LAB-A__classic.md` | 계획서를 마크다운으로 만들어 순번이 복사되지 않음 |
 | `40_failures/FAIL-2026-0929-002__LAB-A__classic.md` | 권리 표기를 분량을 이유로 줄임 |
+| `40_failures/FAIL-2026-1003-001__LAB-A__none.md` | 데이터 폴더를 지정하지 않아 설정이 사라진 것처럼 보임 |
 
 ## 50 성과
 
@@ -138,3 +145,4 @@
 | `60_decisions/ADR-0009-lab-d-stop.md` | LAB-D 중단. 실험실 2개. 소재와 검수 규칙 |
 | `60_decisions/ADR-0010-product-goal.md` | 제품 목표. 요구 한두 줄로 조사, 프롬프트, 생성, 패키지까지 자동 |
 | `60_decisions/ADR-0011-execution-routing.md` | 실행 경로와 모델 배정. 판정과 설계는 기본 모델, 반복 실행은 대체 모델 |
+| `60_decisions/ADR-0012-omniroute-startup-contract.md` | OmniRoute 운영 시작 절차 9단계. 상태 점검만으로 정상 판정하지 않는다 |
