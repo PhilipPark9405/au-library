@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-10-04 (1판)
+최종 갱신: 2026-10-05 (1판)
 
 ## 00 헌장
 
@@ -81,6 +81,7 @@
 | `30_facts/FACT-045-metric-must-match-target.md` | 지표가 무엇을 재는지 확인하지 않으면 게이트가 헛돈다 | 실측 |
 | `30_facts/FACT-046-8h-vs-3h-design.md` | 8시간과 3시간은 화면 설계가 다르다. 블랙 스크린 장르 | 제3자 분석 |
 | `30_facts/FACT-047-longform-8h-render.md` | 8시간 롱폼 마스터와 렌더 실측, 단계 조립, 길이 어긋남 | 실측 |
+| `30_facts/FACT-048-render-pc-setup.md` | 렌더 PC 사양과 설치 항목, 설치 확인에서 걸린 것 | 실측 |
 
 ## 40 실패 기록
 
@@ -146,3 +147,4 @@
 | `60_decisions/ADR-0010-product-goal.md` | 제품 목표. 요구 한두 줄로 조사, 프롬프트, 생성, 패키지까지 자동 |
 | `60_decisions/ADR-0011-execution-routing.md` | 실행 경로와 모델 배정. 판정과 설계는 기본 모델, 반복 실행은 대체 모델 |
 | `60_decisions/ADR-0012-omniroute-startup-contract.md` | OmniRoute 운영 시작 절차 9단계. 상태 점검만으로 정상 판정하지 않는다 |
+| `60_decisions/ADR-0013-two-pc-split.md` | 작업 PC 와 렌더 PC 분리. 한 작업은 한 PC 에서 끝낸다 |
