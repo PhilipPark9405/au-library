@@ -3,7 +3,7 @@
 이 파일 하나만 읽으면 도서관에 무엇이 있는지 전부 알 수 있습니다.
 파일이 추가되거나 삭제되면 여기도 같이 고칩니다.
 
-최종 갱신: 2026-10-05 (1판)
+최종 갱신: 2026-10-06 (1판)
 
 ## 00 헌장
 
@@ -82,6 +82,9 @@
 | `30_facts/FACT-046-8h-vs-3h-design.md` | 8시간과 3시간은 화면 설계가 다르다. 블랙 스크린 장르 | 제3자 분석 |
 | `30_facts/FACT-047-longform-8h-render.md` | 8시간 롱폼 마스터와 렌더 실측, 단계 조립, 길이 어긋남 | 실측 |
 | `30_facts/FACT-048-render-pc-setup.md` | 렌더 PC 사양과 설치 항목, 설치 확인에서 걸린 것 | 실측 |
+| `30_facts/FACT-049-ffmpeg-nostdin.md` | ffmpeg 은 명령 창에서 키보드 입력을 기다린다. -nostdin 을 넣는다 | 실측 |
+| `30_facts/FACT-050-render-pc-benchmark.md` | 렌더 PC 속도 실측 1.49배 느림, 품질은 두 PC 동일 | 실측 |
+| `30_facts/FACT-051-omniroute-new-pc.md` | OmniRoute 새 PC 설치에서 걸리는 것들, 비용 화면은 구독 추정치 | 실측 |
 
 ## 40 실패 기록
 
@@ -122,6 +125,7 @@
 | `40_failures/FAIL-2026-0929-001__LAB-A__classic.md` | 계획서를 마크다운으로 만들어 순번이 복사되지 않음 |
 | `40_failures/FAIL-2026-0929-002__LAB-A__classic.md` | 권리 표기를 분량을 이유로 줄임 |
 | `40_failures/FAIL-2026-1003-001__LAB-A__none.md` | 데이터 폴더를 지정하지 않아 설정이 사라진 것처럼 보임 |
+| `40_failures/FAIL-2026-1006-001__LAB-A__none.md` | 멈춘 원인을 추정으로 다섯 번 고치다 네 시간 허비 |
 
 ## 50 성과
 
@@ -147,4 +151,4 @@
 | `60_decisions/ADR-0010-product-goal.md` | 제품 목표. 요구 한두 줄로 조사, 프롬프트, 생성, 패키지까지 자동 |
 | `60_decisions/ADR-0011-execution-routing.md` | 실행 경로와 모델 배정. 판정과 설계는 기본 모델, 반복 실행은 대체 모델 |
 | `60_decisions/ADR-0012-omniroute-startup-contract.md` | OmniRoute 운영 시작 절차 9단계. 상태 점검만으로 정상 판정하지 않는다 |
-| `60_decisions/ADR-0013-two-pc-split.md` | 작업 PC 와 렌더 PC 분리. 한 작업은 한 PC 에서 끝낸다 |
+| `60_decisions/ADR-0013-two-pc-split.md` | 작업 PC 와 렌더 PC 분리. 한 작업은 한 PC 에서 끝낸다. 올리기 전 받기 |
